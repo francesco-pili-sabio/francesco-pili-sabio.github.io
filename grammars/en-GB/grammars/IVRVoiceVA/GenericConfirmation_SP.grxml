@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
-<grammar xml:lang="en-GB" version="1.0" root="YESNO" xmlns="http://www.w3.org/2001/06/grammar">
+<grammar xml:lang="en-GB" version="1.0" root="ANSWER" xmlns="http://www.w3.org/2001/06/grammar">
 	<!--Copyright Sabio Limited. Diarmid Marshall. 18/07/18-->
 	<!-- Prompt: "<response> ... is that correct?". -->
 <meta name="swirec_normalize_to_probabilities" content="1"/>
   
 
 <meta name="swirec_enable_robust_compile" content="1"/>
-	<rule id="YESNO" scope="public">
+	<rule id="ANSWER" scope="public">
 		<one-of>
 			<item>
 				<ruleref uri="#vocab"/>
-				<tag>YESNO = vocab.Answer;
+				<tag>ANSWER = vocab.Answer;
 				</tag>
 			</item>
 		</one-of>
