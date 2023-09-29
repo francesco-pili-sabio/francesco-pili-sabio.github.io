@@ -10,7 +10,7 @@
 		<one-of>
 			<item>
 				<ruleref uri="#vocab"/>
-				<tag>YESNO = vocab.Answer;
+				<tag>ANSWER = vocab.Answer;
 				</tag>
 			</item>
 		</one-of>
